@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+header{
+    background-image: url(7_wonder_bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-right: 25px;
+    margin-top: 25px;
+    display: block ;/* Add this */
+    transition: 0.4s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.title{
+    position: absolute;
+    color: #fff;
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 150px;
+}
+.detals{
+    font-size: 20px;
+    margin-right: 700px;
+    border-left: 5px solid white;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 35px;
+    margin-top: 35px;
+    margin-right: 1029px;
+    display: block ;/* Add this */
+    transition: 0.4s ease;
+}
+.button:hover{
+    background-color: transparent;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.text{
+    width: 125px;
+    height: 150px;
+    display: block ;/* Add this */
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.text_image{
+    margin-left: 700px;
+    margin-top: 150px;
+    display: block ;/* Add this */
+}
+.h_text{
+    color: #fff;
+    font-size: 18px;
+}
+.text1{
+    background-image: url(top_1.png);
+}
+.text2{
+    background-image: url(top_2.png);
+}
+.text3{
+    background-image: url(Middle_1.png);
+}
+.text4{
+    background-image: url(Middle_2.png);
+}
+.text5{
+    background-image: url(Middle_3.png);
+}
+.text6{
+    background-image: url(bottom_1.png);
+}
+.text7{
+    background-image: url(bottom_2.png);
+}
+.text:hover{
+    transform: translateY(-10px)
+}
+.text1{
+    transform: translateY(-10px)
+}
+.text2{
+    transform: translateY(-10px)
+}
+.text3{
+    transform: translateY(-10px)
+}
+.text4{
+    transform: translateY(-10px)
+}
+.text5{
+    transform: translateY(-10px)
+}
+.text6{
+    transform: translateY(-10px)
+}
+.text7{
+    transform: translateY(-10px)
+}
